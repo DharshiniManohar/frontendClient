@@ -5,14 +5,14 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Users from "./components/Users";
-import CreateUser from "./components/CreateUser";
-import UpdateUser from "./components/UpdateUser";
+import User from "./User";
+import CreateUser from "./CreateUser";
+import UpdateUser from "./UpdateUser";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Users/>
+    element: <User/>
   },
   {
     path: "/create",
